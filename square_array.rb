@@ -1,3 +1,4 @@
 def square_array(array)
- array.map! {|number| number**2}
+ array.each do |number| 
+   return number**2
 end
